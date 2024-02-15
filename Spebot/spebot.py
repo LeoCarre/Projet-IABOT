@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-user_api_key = "Your API Key"
+user_api_key = "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"
 
 # Chargement direct du fichier sans demander à l'utilisateur
 default_csv_path = "all_job_data_with_specialties_and_series.csv"
