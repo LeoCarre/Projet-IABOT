@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spé'BOT Le bot de l'orientation</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/horizontalSpé’.png"
+          alt="Spé BOT logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Bac</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Spécialités</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Avis Utilisateurs</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn" href="#section--4"
+              > Échange avec Spébot</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- onclick="alert('HTML One')" -->
+        <h1>
+          Votre
+          <!-- Green highlight effect -->
+          <span class="highlight">Orientation</span>
+          Spécialisée<br />
+          <span class="highlight">sur mesure pour vous</span>
+        </h1> 
+        <h4>Soliciter Spébot afin d'avoir un accompagnement spécailisé dans votre orientation.</h4>
+        <button class="btn--text btn--scroll-to">En savoir plus &DownArrow;</button>
+        <img
+          src="img/accompagnement.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Bac</h2>
+        <h3 class="section__header">
+          Le format du bac à changé en 2021 et se compose de spécialités, qui permettra l'ouverture sur l'orientation future.
+          Alors, il faut agir et trouver sa voie.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/Questions-pana.png"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Satisfaction</h5>
+          <p>
+            Seulement 44% des élèves se disent satisfait de l’accompagnement des spécialités de leur lycée
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Réorientation</h5>
+          <p>
+            16% des élèves se réorientent après leur 1ére année d'étude supérieure, du fait que l'orientation ne soit pas
+            présenté comme l'école se doit réellement,  et qu'ils n'étudient pas ce qu'ils aiment.
+
+          </p>
+        </div>
+        <img
+          src="img/orientation.png"
+          data-src="img/orientation.png"
+          alt="Plant"
+          class="features__img"
+        />
+
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Spécialités</h2>
+        <h3 class="section__header">
+          3 spécialités à choisir parmis ces 13.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Scientifique
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Economique
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Littérature
+          </button>
+          <button class="btn operations__tab operations__tab--4" data-tab="4">
+            <span>04</span> Exemple de spécialités pour un secteur d'étude.
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Spécialités axées Scientifique
+          </h5>
+          <p>
+            Mathématiques
+            <p>Physique-chimie</p>
+            <p>Sciences de la vie et de la Terre</p>
+            <p>Sciences de l'ingénieur</p>
+            <p>Numériques et sciences informatiques</p>
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Spécialités axées Economie et Social 
+          </h5>
+          <p>
+            Sciences économiques et sociales
+           <p>Histoire Géographie, géopolitique et sciences politiques</p> 
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Spécialités axées Littéraire, Art 
+          </h5>
+          
+          <p>
+            Humanités, littérature et philosophie
+            <p>Langues, littératures et cultures étrangères</p>
+            <p>Arts (Arts du cirque, arts plastiques, cinéma-audiovisuel, danse, histoire des arts, musique, théâtre)</p>
+           <p>Littérature, langues et culture de l'Antiquité</p> 
+           <p>Histoire Géographie, géopolitique et sciences politiques</p>
+          </p>
+        </div>
+        <div class="operations__content operations__content--4">
+          <div class="operations__icon operations__icon--4">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Reconnaissez-vous dans ces orientations?
+          </h5>
+          <p>
+            Ecoles de commerce post-bac :
+              <p>Spécialités indispensables : Maths. Spécialités très recommandées LLCA / LLCER / SES / HGGSP</p>
+              <p>Licence Santé (PASS/L.AS) </p>
+                <p>Spécialités indispensable : Maths / Physique-Chimie / SVT</p>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Avis étudiants</h2>
+        <h3 class="section__header">
+          Des retours d'élèves sur l'orientation que SpéBot leurs sugèrent.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Rassuré dans mon orientation</h5>
+            <blockquote class="testimonial__text">
+             Je suis actuellement en seconde, je suis stressé à l'idée qu'à la fin de l'année
+             le choix de spé que je vais choisir aura un impac sur mon futur. En échangeant avec Spébot
+             Je me sent comprise et rassuré. milles Merci
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">BACCA Victor</h6>
+              <p class="testimonial__location">Lyon</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Enfin soutenue et accompagnée...
+            </h5>
+            <blockquote class="testimonial__text">
+              Actuellement en classe de Première Spé : SVT, Art, SES. Ces trois matières sont celles que 
+              j'aime plus que tout mais comment savoir quelle école et quel secteur je pourrais rejoindre après mon bac.
+              J'étais dans un flou total, il m'etait compliqué d'avoir des retours et un accompagnement constructif afin
+              afin de me soutenir et de donner une vision clair sur où j'allais. Spébot, je recommande.
+  
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">Rennes</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              J'adore cette plateforme. La double entrée d'aide est super neanmoins j'aurais
+              aimé que ca m'oriente grâce à mes hoobies. Merci
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Paris</p>
+            </address>
+          </div>
+        </div>
+
+        
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots" id="section--4"></div>
+      </div>
+    </section>
+
+<section>
+  <div class="section section--video">
+
+      <div class="video-container">
+        <h2 class="video-title">Découvrez Spébot</h2>
+        <iframe src="http://127.0.0.1:8501/" height="600" width="800" title="Streamlit"></iframe>
+      </div>
+      
+    </div>
+  </div>
+</section>
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Échange avec un conseillé spébot</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">A propos</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Nous contacter</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Politique</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">RGPD</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Carrière</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Nous contacter</a>
+        </li>
+      </ul>
+      <img src="img/horizontalSpé’.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    
+  </body>
+</html>
