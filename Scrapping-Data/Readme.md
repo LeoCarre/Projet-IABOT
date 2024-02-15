@@ -13,6 +13,6 @@ Ce script Python utilise les bibliothèques `requests` et `BeautifulSoup` pour e
 ## Lancement du script
 
 Pour lancer le script, exécutez le fichier Python dans votre terminal :
-    ```bash
+    ```
     python3 scrapping.py
     ```
