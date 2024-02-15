@@ -9,7 +9,7 @@
 
 1. Clonez ce dépôt sur votre machine :
     ```bash
-    git clone https://github.com/votre-utilisateur/nom-du-repo.git
+    git clone https://github.com/LeoCarre/Projet-IABOT.git
     ```
 
 3. Installez les dépendances à l'aide de pip :
