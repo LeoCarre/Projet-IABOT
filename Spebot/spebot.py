@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-user_api_key = "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"
+user_api_key = "Your API Key"
 
 # Chargement direct du fichier sans demander à l'utilisateur
 default_csv_path = "all_job_data_with_specialties_and_series.csv"
@@ -25,7 +25,7 @@ embeddings = OpenAIEmbeddings(openai_api_key=user_api_key)
 vectorstore = FAISS.from_documents(data, embeddings)
 
 chain = ConversationalRetrievalChain.from_llm(
-    llm=ChatOpenAI(temperature=0.0, model_name='gpt-4-turbo-preview', openai_api_key=user_api_key),
+    llm=ChatOpenAI(temperature=0.0, model_name='gpt-3.5-turbo', openai_api_key=user_api_key),
     retriever=vectorstore.as_retriever()
 )
 

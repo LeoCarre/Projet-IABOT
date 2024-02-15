@@ -12,14 +12,19 @@
     git clone https://github.com/LeoCarre/Projet-IABOT.git
     ```
 
-3. Installez les dépendances à l'aide de pip :
+2. Installez les dépendances à l'aide de pip :
     ```bash
     pip3 install -r requirements.txt
     ```
 
 ### Exécution :
 
-1. Lancez l'application Streamlit :
+1. Ajoutez votre clé d'Api Open AI que vous pouvez retrouver ici : [https://platform.openai.com/api-keys] dans spebot.py à la ligne 17 : 
+    ```
+    user_api_key = "Your API Key"
+    ```
+
+2. Lancez l'application Streamlit :
     ```bash
     streamlit run app.py
     ```
