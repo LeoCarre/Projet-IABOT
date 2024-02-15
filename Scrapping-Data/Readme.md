@@ -11,6 +11,8 @@ Ce script Python utilise les bibliothèques `requests` et `BeautifulSoup` pour e
    pip install requests beautifulsoup4
 
 ## Lancement du script
+
 Pour lancer le script, exécutez le fichier Python dans votre terminal :
     ```bash
-   python scrapping.py
+    python3 scrapping.py
+    ```
