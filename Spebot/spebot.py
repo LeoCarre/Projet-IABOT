@@ -14,10 +14,10 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-user_api_key = "Your API Key"
+user_api_key = "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"
 
 # Chargement direct du fichier sans demander à l'utilisateur
-default_csv_path = "all_job_data_with_specialties_and_series.csv"
+default_csv_path = "/Users/leocarre/Documents/GitHub/Projet-IABOT/Spebot/all_job_data_with_specialties_and_series.csv"
 data = CSVLoader(file_path=default_csv_path, encoding="utf-8", csv_args={'delimiter': ','}).load()
 
 
