@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-user_api_key = "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"
+user_api_key = "[Your API KEY]"
 
 # Chargement direct du fichier sans demander à l'utilisateur
 default_csv_path = "/Users/leocarre/Documents/GitHub/Projet-IABOT/Spebot/all_job_data_with_specialties_and_series.csv"
